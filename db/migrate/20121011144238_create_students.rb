@@ -5,5 +5,6 @@ require_relative '../config'
 class CreateStudents < ActiveRecord::Migration
   def change
     # HINT: checkout ActiveRecord::Migration.create_table
+    # look, there is a change
   end
 end
