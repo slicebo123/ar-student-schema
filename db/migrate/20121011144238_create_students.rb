@@ -12,7 +12,6 @@ class CreateStudents < ActiveRecord::Migration
       field.string  :email
       field.string  :phone
       field.date    :birthday
-      field.integer :teacher_id
     end
   end
 end

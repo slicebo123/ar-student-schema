@@ -27,7 +27,7 @@ end
 
 class Student < ActiveRecord::Base
 
-  belongs_to :teacher
+  has_and_belongs_to_many :teachers
   
   validates :email, uniqueness: true
   validates :email, email: true
