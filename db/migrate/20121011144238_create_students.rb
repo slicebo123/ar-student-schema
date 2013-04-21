@@ -7,11 +7,12 @@ class CreateStudents < ActiveRecord::Migration
     create_table :students do |field|
       field.integer :id
       field.string  :first_name
-      field.string  :last_name
+      field.string  :last_name  
       field.string  :gender
       field.string  :email
       field.string  :phone
       field.date    :birthday
+      field.integer :teacher_id
     end
   end
 end

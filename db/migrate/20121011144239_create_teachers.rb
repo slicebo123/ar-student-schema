@@ -10,7 +10,7 @@ class CreateTeachers < ActiveRecord::Migration
       field.string  :last_name
       field.string  :email
       field.string  :phone
-      field.string    :address
+      field.string  :address
     end
   end
 end
