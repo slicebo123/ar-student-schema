@@ -34,9 +34,6 @@ class Student < ActiveRecord::Base
   validates :age,   age: true
   validates :phone, phone: true
 
-  def name
-    "#{first_name} #{last_name}"
-  end
 
   def age
     now = Date.today
